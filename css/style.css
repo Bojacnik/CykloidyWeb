@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}
+
+.page {
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: blueviolet;
+
+}
+
+.static {
+    width: 100%;
+    height: 20%;
+    background-color: lightblue;
+
+}
+
+.project {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#projectName {
+    width: 100%;
+    height: fit-content;
+}
+
+.navigation {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.route {
+    flex-basis: 100%;
+}
+
+.route:hover {
+    background-color: blue;
+}
+
+.main {
+    width: 100%;
+    height: 80%;
+    background-color: brown;
+}
+
+.paragraph {
+    margin-top: 0;
+    margin-left: 5;
+}
